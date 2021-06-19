@@ -1,0 +1,159 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #1d6d88;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+p {
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 15vh;
+  background: #316070;
+}
+
+nav h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  font-size: 1.2rem;
+}
+
+table {
+  width: 90%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #4699b4;
+}
+
+td:last-child {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+label,
+.registerButton,
+.purchaseButton,
+.updateButton {
+  font-size: 1.5rem;
+  display: block;
+}
+
+input {
+  width: 50%;
+  height: 1.5rem;
+  background: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 2%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+button,
+.ico {
+  cursor: pointer;
+}
+.navLink {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.navLink a {
+  color: white;
+}
+
+.home,
+.detail,
+.list,
+.register,
+.purchase,
+.update {
+  width: 100%;
+  padding-top: 3%;
+  padding: 4rem 0 5rem 0;
+  text-align: center;
+}
+
+.card,
+.cardDetail {
+  background-color: white;
+  border-radius: 10px;
+  border: 3px none;
+  box-shadow: 3px 3px 3px 2px rgba(0.3, 0.3, 0.3, 0.3);
+  display: inline-block;
+  vertical-align: top;
+  width: 25vw;
+  margin: 3%;
+  padding: 2%;
+}
+
+.cardImg img {
+  width: 60%;
+}
+
+.cardDetail {
+  margin-left: 20%;
+}
+.options {
+  margin-right: 5%;
+  float: right;
+}
+
+.tableContainer {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registerButton,
+.purchaseButton,
+.updateButton {
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.purchaseButtonDetail {
+  margin-top: 20rem;
+}
+.purchaseButton {
+  top: 80%;
+}
+
+.updateButton {
+  top: 130%;
+}
